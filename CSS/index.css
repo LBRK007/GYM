@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  height: 825px;
+  object-fit: cover;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  color: orangered;
+}
+
+.links {
+  padding-right: 100px;
+}
+
+.links a {
+  padding-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: orangered;
+}
+
+.main {
+  top: 200px;
+  left: 400px;
+  position: absolute;
+  text-align: center;
+  color: aliceblue;
+}
+
+.main h1 {
+  padding: 20px 0px;
+}
+
+.main p {
+  display: inline;
+  padding-right: 20px;
+}
+
+.main button {
+  border: 1px solid orangered;
+  background: transparent;
+  color: orangered;
+  padding: 8px;
+  width: 150px;
+}
+
+.main button:hover {
+  background-color: rgb(122, 48, 8);
+  color: black;
+  border: none;
+}
+
+.section1 {
+  height: 825px;
+}
+
+.section2 {
+  background-color: black;
+  color: aliceblue;
+  padding: 35px 30px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.about1,
+.about2 {
+  padding: 40px;
+}
+
+.about2 {
+  padding-left: 100px;
+}
+
+.about1 p,
+.about2 p {
+  padding: 15px 30px 10px 0px;
+}
+
+.about1 button {
+  border: none;
+  background-color: orangered;
+  padding: 10px;
+  width: 100%;
+}
+
+.about1 button:hover {
+  background-color: rgb(125, 41, 16);
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgb(167, 167, 167);
+  padding: 50px;
+}
+
+.trainer {
+  width: 200px;
+  background-color: aliceblue;
+}
+
+.trainer img {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.trainer .detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.trainer .detail h1 {
+  font-size: 20px;
+  padding: 15px 0px;
+}
+
+.about3 {
+  padding: 20px;
+  padding-right: 120px;
+
+  h1 {
+    color: aliceblue;
+    padding-bottom: 10px;
+  }
+
+  p {
+    padding-top: 15px;
+  }
+}
+
+.section4 {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: rgb(245, 245, 235);
+
+  h4 {
+    color: gray;
+  }
+
+  h2,
+  h3 {
+    padding: 20px 0px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    .card {
+      width: 300px;
+      text-align: left;
+
+      img {
+        width: 300px;
+        height: 200px;
+      }
+
+      .detail {
+        padding: 10px;
+        position: relative;
+        background-color: aliceblue;
+
+        p {
+          padding-bottom: 30px;
+        }
+
+        .cash {
+          position: absolute;
+          right: 10px;
+          top: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(255, 34, 0);
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          padding: 0px;
+        }
+      }
+    }
+  }
+}
+
+.section5 {
+  background-color: rgb(0, 0, 0);
+  padding: 80px;
+  color: aliceblue;
+
+  .div {
+    text-align: center;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+
+  th,
+  td {
+    border: 1px solid rgb(153, 152, 152);
+    padding: 20px 40px;
+    width: 130px;
+  }
+
+  th,
+  td:nth-child(1) {
+    background-color: orangered;
+    color: white;
+  }
+
+  h4 {
+    color: rgb(85, 77, 67);
+  }
+
+  h4,
+  h2 {
+    padding: 10px;
+  }
+}
+
+.section6 {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding: 80px;
+
+  .contact {
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        padding: 15px;
+        margin-top: 20px;
+        width: 110%;
+      }
+
+      input[type="submit"] {
+        width: 120%;
+        border: none;
+        background-color: orangered;
+        padding: 10px;
+        margin-top: 20px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: rgb(164, 46, 16);
+      }
+    }
+  }
+
+  .map {
+    width: 400px;
+
+    p {
+      padding: 20px 0px;
+    }
+
+    iframe {
+      width: 400px;
+      height: 200px;
+    }
+  }
+}
