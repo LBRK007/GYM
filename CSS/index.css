@@ -85,10 +85,13 @@ header {
   justify-content: center;
 }
 
+.about1 {
+  width: 400px;
+}
+
 .about1,
 .about2 {
   padding: 40px;
-  width: 400px;
   margin: auto;
 }
 
